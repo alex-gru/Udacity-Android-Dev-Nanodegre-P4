@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = "com.udacity.gradle.javalib.JokeTeller"
+mainClassName = "com.udacity.gradle.javalib.JokeSource"
 sourceCompatibility = 1.7
 
 dependencies {

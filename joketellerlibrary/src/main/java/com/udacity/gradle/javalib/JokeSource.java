@@ -1,6 +1,6 @@
 package com.udacity.gradle.javalib;
 
-public class JokeTeller {
+public class JokeSource {
 
     public String getAJoke () {
         return "What do vegan zombies say?\n" +
