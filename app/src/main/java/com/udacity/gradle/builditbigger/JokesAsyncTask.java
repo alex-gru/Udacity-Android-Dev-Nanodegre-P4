@@ -1,16 +1,11 @@
 package com.udacity.gradle.builditbigger;
 
-import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.util.Pair;
-import android.widget.Toast;
 
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
-import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
-import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
 import com.udacity.gradle.backend.myApi.MyApi;
 import com.udacity.gradle.jokedisplaylibrary.JokeActivity;
 
@@ -21,12 +16,14 @@ import java.io.IOException;
  * Android Developer Nanodegree
  * UDACITY
  */
-class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
+class JokesAsyncTask extends AsyncTask<Void, Void, String> {
     private static MyApi myApiService = null;
-    private Context context;
+    private MainActivity context;
+    private AsyncTaskListener mListener = null;
+    private Exception mException = null;
 
-    public EndpointsAsyncTask(MainActivity mainActivity) {
-        context = mainActivity;
+    public JokesAsyncTask(MainActivity context) {
+        this.context = context;
     }
 
     @Override
@@ -43,15 +40,38 @@ class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
         try {
             return myApiService.sayHi().execute().getData();
         } catch (IOException e) {
+            mException = e;
             return e.getMessage();
         }
     }
 
     @Override
     protected void onPostExecute(String result) {
-//        Toast.makeText(context, result, Toast.LENGTH_LONG).show();
-        Intent intent = new Intent(context, JokeActivity.class);
-        intent.putExtra(JokeActivity.JOKE_KEY, result);
-        context.startActivity(intent);
+        // inform listener about task completion
+        if (this.mListener != null)
+            this.mListener.onComplete(result, mException);
+
+        if (context != null) {
+            Intent intent = new Intent(context, JokeActivity.class);
+            intent.putExtra(JokeActivity.JOKE_KEY, result);
+            context.startActivity(intent);
+        }
+   }
+
+    @Override
+    protected void onCancelled() {
+        if (this.mListener != null) {
+            mException = new InterruptedException("AsyncTask cancelled");
+            this.mListener.onComplete(null, mException);
+        }
+    }
+
+    public JokesAsyncTask setListener(AsyncTaskListener listener) {
+        this.mListener = listener;
+        return this;
+    }
+
+    public interface AsyncTaskListener {
+        void onComplete(String joke, Exception e);
     }
 }
