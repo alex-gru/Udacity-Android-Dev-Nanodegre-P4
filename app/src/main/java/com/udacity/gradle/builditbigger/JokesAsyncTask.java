@@ -1,6 +1,5 @@
 package com.udacity.gradle.builditbigger;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 
@@ -16,7 +15,7 @@ import java.io.IOException;
  * Android Developer Nanodegree
  * UDACITY
  */
-class JokesAsyncTask extends AsyncTask<Void, Void, String> {
+public class JokesAsyncTask extends AsyncTask<Void, Void, String> {
     private static MyApi myApiService = null;
     private MainActivity context;
     private AsyncTaskListener mListener = null;
