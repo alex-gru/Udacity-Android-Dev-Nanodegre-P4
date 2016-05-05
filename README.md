@@ -9,7 +9,6 @@ But the main focus is on the work behind the scenes. Starting with a single Andr
 
 <img style="position: center;" src="https://lh3.googleusercontent.com/cJQtO_A08shKWZ1NEJxpvdYcfXxoHH87HYldIx_gOoGcoqnnZDTP3ycVqAnZSUMYzHygxhb-nEE_Yv_QmZY=s0#w=1920&h=1080" width="750">
 
-<img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/static/screenshots/P4%20-%20Build%20It%20Bigger%20-Project%20Structure.JPG" width="200">
 ### Java Library, that serves Jokes
 The jokes, provided by the app, should now come from a Java library, which is configured as a dependency in the Android project.
 
@@ -26,3 +25,7 @@ In Android projects, there are usually two types of tests. JUnit tests to test J
 ### "Free" and "Paid" flavors
 Finally, and important concept in Android projects is introduced, to provide an app in different "flavors". A flavor is actually an arbitrary special version of the app, but usually there are two flavors. A free version of the app provides a reduced experience to the user, either by hiding functionality, or by showing ads. If the user wants to upgrade, also a paid (or also premium) version is offered, which now contains all features of the app. With gradle, this concept can be realized in a coherent way. 
 In "Build It Bigger", the free version shows ads (and has a dependency to the Google Ad library), whereas the paid version removes this ads, and does not depend on any unnecessary libraries. 
+
+<img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/static/screenshots/P4%20-%20Build%20It%20Bigger%20-Project%20Structure.JPG" width="300">
+<img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/static/screenshots/P4%20-%20Build%20It%20Bigger%20-Flavors_2.png" width="250">
+<img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/static/screenshots/P4%20-%20Build%20It%20Bigger%20-Flavors_3.png" width="250">
