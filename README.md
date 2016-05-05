@@ -1,6 +1,8 @@
 **[← back to project list](https://github.com/alex-gru/android_dev_nanodegree_udacity/blob/master/README.md)**
 
-##P4 - Build It Bigger
+##P4 - Build It Bigger <img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/app/src/free/res/mipmap-xxxhdpi/ic_launcher.png" width="100"> <img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/app/src/paid/res/mipmap-xxxhdpi/ic_launcher.png" width="100">
+
+
 
 This project is actually the final project of Udacity's [Gradle for Android and Java](https://github.com/udacity/ud867/tree/master/FinalProject) course, included in the Android Developer nanodegree.
 <a href="http://gradle.org/getting-started-android/" target="_blank">Gradle</a> has become the official build system for Android projects and is fully integrated in the Android Studio IDE. The goal of this course is to get familiar with this powerful build system and to "build it bigger". 
@@ -28,6 +30,7 @@ Finally, an important concept in Android projects is introduced, to provide an a
 In "Build It Bigger", the free version shows ads (and has a dependency to the Google Ad library), whereas the paid version removes this ads, and does not depend on any unnecessary libraries. 
 
 <img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/static/screenshots/P4%20-%20Build%20It%20Bigger%20-Project%20Structure.JPG" width="250">
+<img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/static/screenshots/P4%20-%20Homescreen.png" width="250">
 
 <img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/static/screenshots/P4%20-%20Build%20It%20Bigger%20-Flavors_2.png" width="250">
 <img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/static/screenshots/P4%20-%20Build%20It%20Bigger%20-Flavors_3.png" width="250">
