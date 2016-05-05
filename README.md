@@ -9,6 +9,7 @@ But the main focus is on the work behind the scenes. Starting with a single Andr
 
 <img style="position: center;" src="https://lh3.googleusercontent.com/cJQtO_A08shKWZ1NEJxpvdYcfXxoHH87HYldIx_gOoGcoqnnZDTP3ycVqAnZSUMYzHygxhb-nEE_Yv_QmZY=s0#w=1920&h=1080" width="750">
 
+<img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/static/screenshots/P4%20-%20Build%20It%20Bigger%20-Project%20Structure.JPG" width="200">
 ### Java Library, that serves Jokes
 The jokes, provided by the app, should now come from a Java library, which is configured as a dependency in the Android project.
 
