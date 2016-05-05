@@ -2,6 +2,7 @@
 
 ##P4 - Build It Bigger
 
+This project is actually the final project of Udacity's [Gradle for Android and Java](https://github.com/udacity/ud867/tree/master/FinalProject) course, included in the Android Developer nanodegree.
 <a href="http://gradle.org/getting-started-android/" target="_blank">Gradle</a> has become the official build system for Android projects and is fully integrated in the Android Studio IDE. The goal of this course is to get familiar with this powerful build system and to "build it bigger". 
 From the user's perspective, an app called "Jokes" provides a very simple UI, with a button, where the user can request a joke. 
 
