@@ -3,7 +3,7 @@
 ##P4 - Build It Bigger
 
 <a href="http://gradle.org/getting-started-android/" target="_blank">Gradle</a> has become the official build system for Android projects and is fully integrated in the Android Studio IDE. The goal of this course is to get familiar with this powerful build system and to "build it bigger". 
-From the user's perspective, an app called "Jokes" provides a very simple UI, with a button, where the User can request a joke. 
+From the user's perspective, an app called "Jokes" provides a very simple UI, with a button, where the user can request a joke. 
 
 But the main focus is on the work behind the scenes. Starting with a single Android project, that provides a simple Activity, the project is extended to a multi-project build system, as shown below (credits go to Udacity). 
 
