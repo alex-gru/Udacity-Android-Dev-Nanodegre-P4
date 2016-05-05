@@ -27,5 +27,7 @@ Finally, and important concept in Android projects is introduced, to provide an 
 In "Build It Bigger", the free version shows ads (and has a dependency to the Google Ad library), whereas the paid version removes this ads, and does not depend on any unnecessary libraries. 
 
 <img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/static/screenshots/P4%20-%20Build%20It%20Bigger%20-Project%20Structure.JPG" width="250">
+
 <img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/static/screenshots/P4%20-%20Build%20It%20Bigger%20-Flavors_2.png" width="250">
 <img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/static/screenshots/P4%20-%20Build%20It%20Bigger%20-Flavors_3.png" width="250">
+<img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/static/screenshots/P4%20-%20Build%20It%20Bigger%20-Joke.png" width="250">
