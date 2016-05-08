@@ -1,6 +1,7 @@
 **[← back to project list](https://github.com/alex-gru/android_dev_nanodegree_udacity/blob/master/README.md)**
 
 ##P4 - Build It Bigger <img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/app/src/free/res/mipmap-xxxhdpi/ic_launcher.png" width="50"> <img style="position: center;" src="https://github.com/alex-gru/Udacity-Android-Dev-Nanodegre-P4/blob/master/app/src/paid/res/mipmap-xxxhdpi/ic_launcher.png" width="50">
+***Included Udacity course: [Gradle for Android and Java](https://www.udacity.com/course/gradle-for-android-and-java--ud867)***
 
 
 
